@@ -1,0 +1,68 @@
+.ai-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.ai-site-list {
+  width: 240px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-right: 1px solid #e2e8f0;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.ai-site-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  transition: all 0.2s ease;
+}
+
+.ai-site-item:hover {
+  background-color: #f1f5f9;
+  transform: translateX(2px);
+}
+
+.ai-site-item.active {
+  background-color: #f1f5f9;
+}
+
+.ai-site-logo {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+  border-radius: 6px;
+}
+
+.ai-site-name {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.ai-site-item.active .ai-site-name {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.ai-webview-container {
+  flex: 1;
+  height: 100%;
+  position: relative;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.ai-webview {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

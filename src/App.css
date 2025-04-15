@@ -1,0 +1,94 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.app-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.dock-sidebar {
+  width: 280px;
+  height: 100%;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+
+.dock-header {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dock-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.dock-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.ai-site-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ai-site-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ai-site-item:hover {
+  background-color: #f0f0f0;
+}
+
+.ai-site-item.active {
+  background-color: #e6f7ff;
+}
+
+.ai-site-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.ai-site-name {
+  font-size: 14px;
+  color: #333;
+}
+
+.main-content {
+  flex: 1;
+  height: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.ai-webview-container {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  border: #e0e0e0 10px solid;
+}
+
+.ai-webview-container webview {
+  flex: 1;
+  min-height: 0;
+}

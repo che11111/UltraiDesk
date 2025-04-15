@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0066ff"/>
+            <stop offset="100%" style="stop-color:#00ffff"/>
+        </linearGradient>
+        <style>
+            .block {
+                animation: pulse 2s ease-in-out infinite;
+            }
+            @keyframes pulse {
+                0%, 100% { opacity: 0.8; }
+                50% { opacity: 1; }
+            }
+        </style>
+    </defs>
+    <g>
+        <rect x="58" y="19.5" width="15" height="15" fill="url(#blueGrad)" class="block" style="animation-delay: 0.2s" transform="rotate(2, 65.5, 27)"/>
+        <rect x="63" y="21" width="14.8" height="14.8" fill="url(#blueGrad)" class="block" style="animation-delay: 0.3s" transform="rotate(4, 70.25, 28.25)"/>
+        <rect x="67" y="23" width="14.6" height="14.6" fill="url(#blueGrad)" class="block" style="animation-delay: 0.4s" transform="rotate(6, 74, 30)"/>
+        <rect x="71" y="26" width="14.4" height="14.4" fill="url(#blueGrad)" class="block" style="animation-delay: 0.5s" transform="rotate(8, 77.75, 32.75)"/>
+        <rect x="74" y="29" width="14.2" height="14.2" fill="url(#blueGrad)" class="block" style="animation-delay: 0.6s" transform="rotate(10, 80.5, 35.5)"/>
+        <rect x="77" y="33" width="14" height="14" fill="url(#blueGrad)" class="block" style="animation-delay: 0.7s" transform="rotate(12, 83.25, 39.25)"/>
+        <rect x="79" y="37" width="13.8" height="13.8" fill="url(#blueGrad)" class="block" style="animation-delay: 0.8s" transform="rotate(14, 85, 43)"/>
+        <rect x="80" y="42" width="13.6" height="13.6" fill="url(#blueGrad)" class="block" style="animation-delay: 0.9s" transform="rotate(16, 85.75, 47.75)"/>
+        <rect x="81" y="47" width="13.4" height="13.4" fill="url(#blueGrad)" class="block" style="animation-delay: 1s" transform="rotate(18, 86.5, 52.5)"/>
+        <rect x="81" y="52" width="13.2" height="13.2" fill="url(#blueGrad)" class="block" style="animation-delay: 1.1s" transform="rotate(20, 86.25, 57.25)"/>
+        <rect x="80" y="57" width="13" height="13" fill="url(#blueGrad)" class="block" style="animation-delay: 1.2s" transform="rotate(22, 85, 62)"/>
+        <rect x="78" y="62" width="12.8" height="12.8" fill="url(#blueGrad)" class="block" style="animation-delay: 1.3s" transform="rotate(24, 82.75, 66.75)"/>
+        <rect x="76" y="66" width="12.6" height="12.6" fill="url(#blueGrad)" class="block" style="animation-delay: 1.4s" transform="rotate(26, 80.5, 70.5)"/>
+        <rect x="73" y="70" width="12.4" height="12.4" fill="url(#blueGrad)" class="block" style="animation-delay: 1.5s" transform="rotate(28, 77.25, 74.25)"/>
+        <rect x="69" y="73" width="12.2" height="12.2" fill="url(#blueGrad)" class="block" style="animation-delay: 1.6s" transform="rotate(30, 73, 77)"/>
+        <rect x="65" y="76" width="12" height="12" fill="url(#blueGrad)" class="block" style="animation-delay: 1.7s" transform="rotate(32, 69, 80)"/>
+        <rect x="61" y="78" width="11.8" height="11.8" fill="url(#blueGrad)" class="block" style="animation-delay: 1.8s" transform="rotate(34, 65, 82)"/>
+        <rect x="56" y="79" width="11.6" height="11.6" fill="url(#blueGrad)" class="block" style="animation-delay: 1.9s" transform="rotate(36, 60, 83)"/>
+        <rect x="51" y="80" width="11.4" height="11.4" fill="url(#blueGrad)" class="block" style="animation-delay: 2s" transform="rotate(38, 55, 84)"/>
+        <rect x="46" y="80" width="11.2" height="11.2" fill="url(#blueGrad)" class="block" style="animation-delay: 2.1s" transform="rotate(40, 50, 84)"/>
+        <rect x="41" y="79" width="11" height="11" fill="url(#blueGrad)" class="block" style="animation-delay: 2.2s" transform="rotate(42, 45, 83)"/>
+        <rect x="36" y="77" width="10.8" height="10.8" fill="url(#blueGrad)" class="block" style="animation-delay: 2.3s" transform="rotate(44, 40, 81)"/>
+        <rect x="32" y="75" width="10.6" height="10.6" fill="url(#blueGrad)" class="block" style="animation-delay: 2.4s" transform="rotate(46, 36, 79)"/>
+        <rect x="28" y="72" width="10.4" height="10.4" fill="url(#blueGrad)" class="block" style="animation-delay: 2.5s" transform="rotate(48, 32, 76)"/>
+        <rect x="25" y="68" width="10.2" height="10.2" fill="url(#blueGrad)" class="block" style="animation-delay: 2.6s" transform="rotate(50, 29, 72)"/>
+        <rect x="22" y="64" width="10" height="10" fill="url(#blueGrad)" class="block" style="animation-delay: 2.7s" transform="rotate(52, 26, 68)"/>
+        <rect x="20" y="60" width="9.8" height="9.8" fill="url(#blueGrad)" class="block" style="animation-delay: 2.8s" transform="rotate(54, 24, 64)"/>
+        <rect x="19" y="55" width="9.6" height="9.6" fill="url(#blueGrad)" class="block" style="animation-delay: 2.9s" transform="rotate(56, 23, 59)"/>
+        <rect x="18" y="50" width="9.4" height="9.4" fill="url(#blueGrad)" class="block" style="animation-delay: 3s" transform="rotate(58, 22, 54)"/>
+        <rect x="18" y="45" width="9.2" height="9.2" fill="url(#blueGrad)" class="block" style="animation-delay: 3.1s" transform="rotate(60, 22, 49)"/>
+        <rect x="19" y="40" width="9" height="9" fill="url(#blueGrad)" class="block" style="animation-delay: 3.2s" transform="rotate(62, 23, 44)"/>
+        <rect x="21" y="35" width="8.8" height="8.8" fill="url(#blueGrad)" class="block" style="animation-delay: 3.3s" transform="rotate(64, 25, 39)"/>
+    </g>
+</svg>

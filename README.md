@@ -1,14 +1,8 @@
 # UltraiDesk
 
----
-
 A lightweight desktop software that aggregates the pages of general large language models from various companies.
 
 <img src="public/ultraidesk-logo-bg.png" alt="logo" style="zoom:50%;" />
-
-
-
-<img src="public/demo.jpeg" alt="demo" />
 
 ### Features
 
@@ -22,3 +16,5 @@ UltraiDesk is open - source software, ensuring complete transparency. The conver
 ### Cross-Platform
 
 Available for Windows, macOS, and Linux.
+
+<img src="public/demo.jpeg" alt="demo" />

@@ -4,7 +4,7 @@
 
 A lightweight desktop software that aggregates the pages of general large language models from various companies.
 
-<img src="public/ultraidesk-logo.svg" alt="logo" style="zoom:50%;" />
+<img src="public/ultraidesk-logo-bg.png" alt="logo" style="zoom:50%;" />
 
 
 

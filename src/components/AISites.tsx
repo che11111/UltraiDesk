@@ -63,7 +63,7 @@ const aiSites: AISite[] = [
     id: 'wenxin',
     name: 'WenXin',
     logo: './ai-logo/wenxin-color.svg',
-    url: 'https://yiyan.baidu.com/chat/'
+    url: 'https://yiyan.baidu.com/X1'
   },
   {
     id: 'nami',
@@ -75,7 +75,7 @@ const aiSites: AISite[] = [
     id: 'ChatGLM',
     name: 'ChatGLM',
     logo: './ai-logo/chatglm-color.svg',
-    url: 'https://chatglm.cn/main/'
+    url: 'https://chatglm.cn/main/alltoolsdetail?lang=zh'
   },
   {
     id: 'chatgpt',
